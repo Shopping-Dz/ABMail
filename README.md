@@ -11,13 +11,15 @@
 Send Mail To : someone@example.com
 Input Mail Subject : Hello
 Input Mail Content : This is a test message
-اخ
+
+
+
 ⚙️ طريقة التثبيت والتشغيل على Kali Linux
-✅ الخطوة 1: تحديث النظام (اختياري لكن يُفضل)
+✅ الخطوة 1: تحديث النظام (اختياري لكن يُفضل)#
 
 sudo apt update && sudo apt upgrade -y
 
-#✅ الخطوة 2: تثبيت Python (إذا لم تكن مثبتة مسبقًا)
+#✅ الخطوة 2: تثبيت Python (إذا لم تكن مثبتة مسبقًا)#
 
 Kali Linux يأتي عادةً مع Python مثبت مسبقًا، لكن تأكد باستخدام:
 
@@ -27,7 +29,7 @@ python3 --version
 
 sudo apt install python3 -y
 
-✅ الخطوة 3: تثبيت مكتبة requests
+✅ الخطوة 3: تثبيت مكتبة #requests
 
 pip3 install requests
 
@@ -35,10 +37,10 @@ pip3 install requests
 
 sudo apt install python3-pip -y
 
-✅ الخطوة 4: تحميل السكريبت من GitHub
+✅ الخطوة 4: تحميل السكريبت من #GitHub
 الطريقة الأولى: باستخدام git (إذا كان السكريبت مرفوع على مستودع GitHub)
 
-git clone https://github.com/username/repository-name.git
+git clone https://github.com/Shopping-Dz/ABMail.git
 cd repository-name
 
 الطريقة الثانية: نسخ السكريبت يدويًا
